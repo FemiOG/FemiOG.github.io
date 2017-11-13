@@ -29,6 +29,11 @@ nav ul li, footer ul li {
     display: inline;
 }
 
+a {
+    text-decoration: none;
+    color:rgb(29, 28, 28);
+}
+
 nav .pull-left {
     float: left;
     font-weight: bold;
@@ -42,11 +47,12 @@ nav .pull-right {
     text-transform: uppercase;
     font-family: "Open Sans", "ABeeZee", sans-serif;
     margin-top: 4px;
+    color: rgba(0,0,0,0.75);
+    font-weight: 600;
 }
 
-a {
-    text-decoration: none;
-    color:rgb(29, 28, 28);
+nav .pull-right a:hover {
+    color: rgba(0,0,0,0.95);
 }
 
 a.intro{
@@ -54,9 +60,7 @@ a.intro{
     list-style: none;
     font-weight: bold;
 }
-a:hover {
-     text-decoration: underline;
-}
+
 h1 {
     /* font-size: 3em; */
     /* font-family:'Helvetica', 'Arial', 'Sans-Serif'; */
@@ -81,7 +85,7 @@ ul.posts li {
 }
 
 .body-text {
-    line-height: 1.9em;
+    line-height: 2em;
 }
 
 img.profile {
