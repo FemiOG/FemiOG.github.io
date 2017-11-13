@@ -3,10 +3,10 @@ layout: project
 title: Projects
 subtitle: 
 ---
-## collection of cool projects i've worked on.
+## Collection of cool projects i've worked on so far.
 ---
 ---
-### Credit Card Fraud Detection  
+## Credit Card Fraud Detection  
 
 A binary classification problem that involved using logistic regression to determine whether a card transaction is fraudulent or not.   
 
@@ -17,7 +17,7 @@ A binary classification problem that involved using logistic regression to deter
 --- 
 ---
 
-### Loan Risk Model 
+## Loan Risk Model 
 
 Competition hosted on [Kaggle](https://www.kaggle.com/c/data-science-nigeria-credit-risk-prediction) by Data Science Nigeria & OneFi Co (Credit Lending Company) to predict whether a customer would default on a loan.  
 
@@ -31,7 +31,7 @@ I came in 6th position out of 48 participants.
 ---
 ---
 
-### Customer Segmentation
+## Customer Segmentation
 
 Reviewed unstructured data to understand the patterns and natural categories that the data fits into. Used multiple algorithms and both empirically and theoretically compared and contrasted their results. Made predictions about the natural categories of multiple types in a dataset, then checked these predictions against the result of unsupervised analysis.
 
@@ -39,7 +39,7 @@ Reviewed unstructured data to understand the patterns and natural categories tha
 ---
 ---
 
-### Dog Breed Classifier
+## Dog Breed Classifier
 
 Built an algorithm to identify canine breed given an image of a dog. If given image of a human, the algorithm identifies a resembling dog breed.  
 
@@ -47,7 +47,7 @@ Built an algorithm to identify canine breed given an image of a dog. If given im
 ---
 ---
 
-### Boston Housing Prices  
+## Boston Housing Prices  
 
 Built a model to predict the value of a given house in the Boston real estate market using various statistical analysis tools. Identified the best price that a client can sell their house utilizing machine learning.
 
@@ -55,7 +55,7 @@ Built a model to predict the value of a given house in the Boston real estate ma
 ---
 ---
 
-### Finding Donors for CharityML  
+## Finding Donors for CharityML  
 
 - The goal of the project was to investigate factors that affect the likelihood of charity donations being made based on real census data.
 - I developed a naive classifier with Accuracy 24.78% and F-score 0.2917 to compare testing results to.
@@ -65,7 +65,7 @@ Built a model to predict the value of a given house in the Boston real estate ma
 [Notebook](http://nbviewer.jupyter.org/github/FemiOG/finding_donors/blob/master/finding_donors.ipynb) [Code](https://github.com/FemiOG/finding_donors)
 ---
 ---
-### House Prices Predicion in Ames, Iowa
+## House Prices Predicion in Ames, Iowa
 
 A regression problem that involved using ridge regression to predict price of houses in ames, iowa.
   
