@@ -12,13 +12,17 @@ body {
     font-family: 'Open Sans', 'ABeeZee', sans-serif;
     font-size: 14px;
 	max-width: 700px;
-    /*background-color: rgba(245,245,255,.75);*/
 }
-div .container{
-    margin-top: 40px;
+
+@media(min-width: 767px) {
+	body {
+		margin: 10px auto 60px auto;
+	}
 }
+
 div .image-box{
-    margin-bottom: 25px;
+    margin-top: 55px;
+    margin-bottom: 45px;
 }
 nav ul, footer ul {
 	font-family: 'Crete Round', serif;
@@ -97,6 +101,7 @@ img.profile {
 	height: 180px;
 	border-radius: 100%;
 	box-shadow: 0px 2px 10px rgba(0,0,0,.2);
+	margin-bottom: 5px;
 }
 
 .clear {
@@ -106,7 +111,14 @@ img.profile {
 div.img-label {
 	font-size: 12px;
 	text-align: center;
-	margin-bottom: 5px;
+	margin-bottom: 2px;
+	color: rgba(0,0,0,0.8);
+}
+
+div.links {
+	margin: auto;
+	color: rgba(0,0,0,0.3);
+	text-align: center;
 }
 </style>
 
@@ -114,19 +126,19 @@ div.img-label {
 	<div align="center" class="image-box">
 		<img class="profile" src ="{{"assets/images/femi/femi.jpg" | absolute_url }}"/>
 		<div class="img-label">Femi Ogunbode</div>
-		<div class="img-label"><i>Aspiring Data Scientist</i></div>
-		<nav>
-			<div margin-right="100px">
-				<a href="https://linkedin.com/in/femiogunbode" class="fa fa-linkedin fa-2x" aria-hidden="true"></a>
-				<a href="https://github.com/FemiOG" class="fa fa-github fa-2x" aria-hidden="true"></a>
-				<a href="https://medium.com/@FemiOgunbode" class="fa fa-medium fa-2x" aria-hidden="true"></a>  
-				<!-- <a href="https://twitter.com/ogunbode_" class="fa fa-twitter fa-2x" aria-hidden="true"></a> -->
-			</div>
-		</nav>
 	</div> 
 	<div class="body-text" align="justify">
-		<p>I love Data Science. I'm fascinated by the application of machine learning and data science to solving real-life problems.</p>
+		<p>I'm Femi, an aspiring data scientist. I'm fascinated by the application of machine learning and data science to solving real-life problems.</p>
 		<p>I have a Bachelor of Science degree in Computer Science, and I just recently graduated from Udacity's Machine Learning Engineer Nanodegree Program.</p>
 		<p>I have completed a few projects and am open to working on more ways to use data creatively to solve problems.</p>
 	</div><!-- /.blurb -->
+
+	<nav>
+		<div class="links">
+			<a href="https://linkedin.com/in/femiogunbode" class="fa fa-linkedin fa-2x" aria-hidden="true">x</a>
+			<a href="https://github.com/FemiOG" class="fa fa-github fa-2x" aria-hidden="true">x</a>
+			<a href="https://medium.com/@FemiOgunbode" class="fa fa-medium fa-2x" aria-hidden="true">x</a>  
+			<!-- <a href="https://twitter.com/ogunbode_" class="fa fa-twitter fa-2x" aria-hidden="true"></a> -->
+		</div>
+	</nav>
 </div>
