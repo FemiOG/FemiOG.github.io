@@ -3,61 +3,25 @@
     <head>
         <title>{{ page.title }}</title>
         <!-- link to main stylesheet -->
+        <link rel="stylesheet" href="/assets/font-awesome-4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" type="text/css" href="/css/main.css">
     </head>
     <body>
+        <div>
+        
         <nav>
             <ul>
-                <li><a href="/">Home</a></li>
-                <li><a href="/resume">Resume</a></li>
-                <li><a href="/projects">Projects</a></li>
-                <li><a href="/blog">Blog</a></li>
+                <li><a class="left" href="/">Femi Ogunbode</a></li>     
+                <li><a class="right" href="/resume/resume.pdf">Resume</a></li>
+                <li><a class="right" href="/projects">Projects</a></li>
+                <li><a class="right" href="/blog">Blog</a></li>
             </ul>
         </nav>
-        <div class="container">
+        <div class ="container" >
         
         {{ content }}
         
-        </div><!-- /.container -->
-        <footer>
-            <!-- <ul>
-                <li><a href="mailto:hankquinlanhub@gmail.com">email</a></li>
-                <li><a href="https://github.com/hankquinlan">github.com/hankquinlan</a></li>
-            </ul> -->
-            <div id="home-menu" class="d-flex justify-content-around">
-                    <!-- LinkedIn -->
-                    <div class="hm-item">
-                        <a id="skillsAn" href="#skillsModal">
-                        <div>
-                            <i class="fa fa-linkedin fa-2x" aria-hidden="true"></i>
-                        </div>
-                        <span>LinkedIn<span>
-                        </a>
-                    </div>
-                
-                    <!-- Twitter -->
-                    <div class="hm-item">
-                        <a id="portAn" target="_blank" href="/portfolio">
-                        <div>
-                            <i class="fa fa-twitter fa-2x" aria-hidden="true"></i>
-                        </div>
-                        <span>Twitter</span>
-                        </a>
-                    </div>
-                
-                    <!-- Medium -->
-                    <div class="hm-item">
-                        <a id="contactAn" href="#contactModal">
-                        <div>
-                            <i class="fa fa-medium fa-2x" aria-hidden="true"></i>
-                        </div>
-                        <span>Medium</span>
-                        </a>
-                    </div>		
-                </div>
-            </div>  
-            </body>	
-        </html>
-        </footer>
+        </div>
+    </div>
     </body>
 </html>
