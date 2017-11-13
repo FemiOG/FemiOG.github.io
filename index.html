@@ -19,6 +19,7 @@ div .container{
 }
 div .image-box{
     margin-top: 25px;
+    margin-bottom: 10px;
 }
 nav ul, footer ul {
 	font-family: 'Crete Round', serif;
@@ -30,6 +31,7 @@ nav ul li, footer ul li {
 }
 
 a {
+    color:rgb(29, 28, 28);
     text-decoration: none;
 }
 
@@ -48,6 +50,10 @@ nav .pull-right {
     margin-top: 4px;
     color: rgba(0,0,0,0.675);
     font-weight: 600;
+}
+
+nav .pull-right a {
+    color: rgba(0,0,0,0.675);
 }
 
 nav .pull-right a:hover {
@@ -101,13 +107,15 @@ img.profile {
 div.img-label {
 	font-size: 12px;
 	text-align: center;
+	margin-bottom: 5px;
 }
 </style>
 
 <div>
 	<div align="center" class="image-box">
 		<img class="profile" src ="{{"assets/images/femi/femi.jpg" | absolute_url }}"/>
-		<div class="img-label"><span class="black">Femi, Lagos</span> <br> <i>Aspiring Data Scientist</i></div>
+		<div class="img-label">Femi Ogunbode</div>
+		<div class="img-label"><i>Aspiring Data Scientist</i></div>
 		<nav>
 			<div margin-right="100px">
 				<a href="https://linkedin.com/in/femiogunbode" class="fa fa-linkedin fa-2x" aria-hidden="true"></a>
@@ -117,7 +125,7 @@ div.img-label {
 			</div>
 		</nav>
 	</div> 
-	<div class="body-text">
+	<div class="body-text" align="justify">
 		<p>I'm an aspiring Data Scientist with a Bachelor of Science Degree in Computer Science. I'm fascinated by the applications of machine learning and data science, the underlying theory and how they can be used to solve problems</p>
 		<p>I have taken a <del>few</del> lot of online courses, taken on a few amateur projects to get my hands dirty and I recently graduated from Udacity's Machine Learning Engineer Nanodegree Program.</p>
 		<p>I'm open to working on projects that involves the creative use of data to solve problems.</p>
